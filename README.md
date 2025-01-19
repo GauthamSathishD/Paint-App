@@ -1,24 +1,41 @@
 # Paint App
 
-A simple paint application built using JavaScript and HTML5 Canvas. This app allows users to draw on a canvas, change brush colors, and adjust brush sizes, providing an interactive and fun drawing experience.
+A simple paint application built using Python that simulates a painting app. It allows users to create drawings, adjust brush settings, and enjoy an interactive painting experience.
 
 ## Features
 
-- **Freehand Drawing**: Draw freely with your mouse or touchpad.
-- **Color Selection**: Choose from a wide range of colors to customize your drawings.
-- **Brush Size Adjustment**: Increase or decrease the brush size to suit your needs.
-- **Clear Canvas**: Reset the canvas with the click of a button to start a new drawing.
-- **Download Drawing**: Save your masterpiece as an image file.
-  
+- **Freehand Drawing**: Draw freely using the mouse.
+- **Color Selection**: Choose from a palette of colors to customize your artwork.
+- **Brush Size Adjustment**: Modify the brush size to fit your needs.
+- **Clear Canvas**: Reset the canvas with a single click to start fresh.
+- **Save Artwork**: Download your creation as an image file.
+
 ## Technologies Used
 
-- **HTML5**: Used for structuring the app and displaying the canvas element.
-- **CSS3**: Styling of the application interface.
-- **JavaScript**: Functionality to handle drawing on the canvas, color selection, brush size, and other interactive features.
+- **Python**: Core programming language used to build the application.
+- **Tkinter**: Provides the graphical user interface for the app.
 
 ## Installation
 
-1. Clone the repository to your local machine:
+To use the Paint App locally, follow these steps:
 
+1. Clone the repository:
    ```bash
    git clone https://github.com/GauthamSathishD/Paint-App.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Paint-App
+   ```
+3. Run the application:
+   ```bash
+   python PaintApp.py
+   ```
+
+## Usage
+
+1. Launch the app using the instructions above.
+2. Use the mouse to draw on the canvas.
+3. Select different colors and brush sizes using the controls.
+4. Click the **Clear** button to reset the canvas.
+5. Save your work by clicking the **Save** button.
